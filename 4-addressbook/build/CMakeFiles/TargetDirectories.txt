@@ -1,0 +1,4 @@
+/home/jerry/Documents/c++/day10/protocol/2-protobuf/4-addressbook/build/CMakeFiles/add_person.dir
+/home/jerry/Documents/c++/day10/protocol/2-protobuf/4-addressbook/build/CMakeFiles/list_people.dir
+/home/jerry/Documents/c++/day10/protocol/2-protobuf/4-addressbook/build/CMakeFiles/edit_cache.dir
+/home/jerry/Documents/c++/day10/protocol/2-protobuf/4-addressbook/build/CMakeFiles/rebuild_cache.dir

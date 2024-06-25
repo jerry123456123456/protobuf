@@ -1,0 +1,13 @@
+syntax="proto3";
+
+message Person{
+    string name =1;
+    int32 id =2;
+    repeated string email=3;
+}
+
+/*
+在 Protocol Buffers 中，`repeated` 关键字用于定义一个字段可以包含多个值的情况，类似于数组或者列表的概念。在你的示例中，`repeated string email = 3;` 表示定义了一个名为 `email` 的字段，它可以包含多个字符串值。
+
+当你使用 `repeated` 关键字定义一个字段时，你可以向该字段添加多个值，每个值都会被序列化和存储在消息中。在生成的代码中，这个字段会被表示为一个类似于 `std::vector` 的容器，可以方便地操作其中的多个值。
+*/
